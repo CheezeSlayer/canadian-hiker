@@ -1,0 +1,53 @@
+html {
+  box-sizing: border-box;
+}
+
+/*default link color*/
+a {
+  color: darkgrey;
+  text-decoration: none;
+  transition: color 0.3s linear;
+  -webkit-transition: color 0.3s linear;
+  -moz-transition: color 0.3s linear;
+}
+a:hover {
+  color: black;
+}
+
+* {
+  margin: 0;
+}
+
+/*Banner alignments*/
+
+.banner {
+  display: inline-block;
+  width: 100%;
+  border-bottom-style: solid;
+  border-bottom-color: darkgrey;
+}
+
+.bannerRight {
+  float: right;
+}
+
+.bannerLeft {
+  float: left;
+}
+
+/*Buttons*/
+
+button.bannerRight {
+  height: 80px;
+  padding: 14px 40px;
+  background-color: transparent;
+  font-family: "Courier New";
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.8em;
+    font-size: 25px;
+    letter-spacing: .04em;
+  border: transparent;
+  outline: none;
+  cursor: pointer;
+}

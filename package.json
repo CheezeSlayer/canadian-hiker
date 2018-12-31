@@ -1,0 +1,12 @@
+{
+  "name": "canadian-hiker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx pm2 start server.js --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
