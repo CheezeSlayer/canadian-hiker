@@ -1,17 +1,18 @@
 html {
   box-sizing: border-box;
+  background-color: #cccccc;
 }
 
 /*default link color*/
 a {
-  color: darkgrey;
+  color: grey;
   text-decoration: none;
   transition: color 0.3s linear;
   -webkit-transition: color 0.3s linear;
   -moz-transition: color 0.3s linear;
 }
 a:hover {
-  color: black;
+  color: #000000;
 }
 
 * {

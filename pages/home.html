@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="/view/style.css">
+  <meta name="viewport" content="width=device-width">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+        $("#navbar").load("/model/index.html");
+  });
+  </script>
+</head>
+
+  <div id="navbar">
+  </div>
+
+<body>
+  <link rel="stylesheet" href="/view/home.css">
+
+  <div class="canvas-container" id="imgCanvas"></div>
+
+  <script>
+
+    var arr = [];
+
+    $.getJSON('/json/imagesdb.json', function(data) {
+      $.each(data.hikes, function(index, value) {
+        arr.push(data.hikes[index].imgSrc);
+      });
+      console.log(arr.length);
+      console.log(arr);
+      for ( i = 0; i < arr.length; i++ ) {
+        var newImg = document.createElement("IMG");
+        newImg.setAttribute("src", `/images/portfolio/mt-seymour/${arr[i]}`);
+        newImg.setAttribute("width", "600");
+        newImg.setAttribute("height", "auto");
+        document.getElementById("imgCanvas").appendChild(newImg);
+        //document.body.appendChild(newImg);
+      }
+    });
+
+  </script>
+
+</script>
+
+</body>
+
+</html>

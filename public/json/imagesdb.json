@@ -1,0 +1,115 @@
+{
+  "hikes": [
+    {
+      "location": "Mt. Seymour",
+      "trail": "Pump Peak",
+      "date": "12-1-2018",
+      "id": "20181201_111207",
+      "imgSrc": "20181201_111207.jpg"
+    },
+
+    {
+      "location": "Mt. Seymour",
+      "trail": "Pump Peak",
+      "date": "12-1-2018",
+      "id": "20181201_112232",
+      "imgSrc": "20181201_112232.jpg"
+    },
+
+    {
+      "location": "Mt. Seymour",
+      "trail": "Pump Peak",
+      "date": "12-1-2018",
+      "id": "20181201_113921",
+      "imgSrc": "20181201_113921.jpg"
+    },
+
+    {
+      "location": "Mt. Seymour",
+      "trail": "Pump Peak",
+      "date": "12-1-2018",
+      "id": "20181201_114258",
+      "imgSrc": "20181201_114258.jpg"
+    },
+
+    {
+      "location": "Mt. Seymour",
+      "trail": "Pump Peak",
+      "date": "12-1-2018",
+      "id": "20181201_115702",
+      "imgSrc": "20181201_115702.jpg"
+    },
+
+    {
+      "location": "Mt. Seymour",
+      "trail": "Pump Peak",
+      "date": "12-1-2018",
+      "id": "20181201_121840",
+      "imgSrc": "20181201_121840.jpg"
+    },
+
+    {
+      "location": "Mt. Seymour",
+      "trail": "Pump Peak",
+      "date": "12-1-2018",
+      "id": "20181201_122843",
+      "imgSrc": "20181201_122843.jpg"
+    },
+
+    {
+      "location": "Mt. Seymour",
+      "trail": "Pump Peak",
+      "date": "12-1-2018",
+      "id": "20181201_131156",
+      "imgSrc": "20181201_131156.jpg"
+    },
+
+    {
+      "location": "Mt. Seymour",
+      "trail": "Pump Peak",
+      "date": "12-1-2018",
+      "id": "20181201_132523",
+      "imgSrc": "20181201_132523.jpg"
+    },
+
+    {
+      "location": "Mt. Seymour",
+      "trail": "Pump Peak",
+      "date": "12-1-2018",
+      "id": "20181201_134059",
+      "imgSrc": "20181201_134059.jpg"
+    },
+
+    {
+      "location": "Mt. Seymour",
+      "trail": "Pump Peak",
+      "date": "12-1-2018",
+      "id": "20181201_134101",
+      "imgSrc": "20181201_134101.jpg"
+    },
+
+    {
+      "location": "Mt. Seymour",
+      "trail": "Pump Peak",
+      "date": "12-1-2018",
+      "id": "20181201_134109",
+      "imgSrc": "20181201_134109.jpg"
+    },
+
+    {
+      "location": "Mt. Seymour",
+      "trail": "Pump Peak",
+      "date": "12-1-2018",
+      "id": "20181201_143805",
+      "imgSrc": "20181201_143805.jpg"
+    },
+
+    {
+      "location": "Mt. Seymour",
+      "trail": "Pump Peak",
+      "date": "12-1-2018",
+      "id": "20181201_143813",
+      "imgSrc": "20181201_143813.jpg"
+    }
+  ]
+}

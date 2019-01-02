@@ -8,5 +8,10 @@
     "start": "npx pm2 start server.js --watch"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "jquery": "^3.3.1",
+    "pug": "^2.0.3"
+  }
 }
