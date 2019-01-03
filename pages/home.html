@@ -19,10 +19,20 @@
 <body>
   <link rel="stylesheet" href="/view/home.css">
 
-  <div class="canvas-container" id="imgCanvas"></div>
+  <div class="canvas-overlay" id="mtseymour">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeCanvas('mtseymour')">&times;</a>
+    <h1>Mt. Seymour</h1>
+    <div class="canvas-container" id="imgCanvas"></div>
+  </div>
+
+  <div class="canvas-cover">
+    <span style="cursor: pointer" onclick="openCanvas('mtseymour')">
+      <h1>Mt. Seymour</h1>
+      <img src = "/images/portfolio/mt-seymour/20181201_121840.jpg">
+    </span>
+  </div>
 
   <script>
-
     var arr = [];
 
     $.getJSON('/json/imagesdb.json', function(data) {
@@ -37,13 +47,19 @@
         newImg.setAttribute("width", "600");
         newImg.setAttribute("height", "auto");
         document.getElementById("imgCanvas").appendChild(newImg);
-        //document.body.appendChild(newImg);
       }
     });
-
   </script>
 
-</script>
+  <script>
+    function openCanvas(param) {
+      document.getElementById(param).style.width = "100%";
+    }
+
+    function closeCanvas(param) {
+      document.getElementById(param).style.width = "0%";
+    }
+  </script>
 
 </body>
 
