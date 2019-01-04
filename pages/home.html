@@ -20,10 +20,17 @@
   <link rel="stylesheet" href="/view/home.css">
 
   <div class="canvas-overlay" id="mtseymour">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeCanvas('mtseymour')">&times;</a>
+    <a href="javascript:void(0)" class="closebtn" id="canvasbtn" onclick="closeCanvas('mtseymour')">&times;</a>
     <h1>Mt. Seymour</h1>
     <div class="canvas-container" id="imgCanvas"></div>
   </div>
+
+  <div class="modal" id="imgModal">
+    <div class="closebtn" id="modalbtn" style="cursor: pointer" onclick="extZoom()">&times;</div>
+      <img class="imgModal-content">
+    </div>
+  </div>
+
 
   <div class="canvas-cover">
     <div class="canvasImg" style="cursor: pointer" onclick="openCanvas('mtseymour')">
@@ -36,8 +43,10 @@
     </div>
   </div>
 
-  <script>
+  <script>//create canvas from images stored in local folder
     var arr = [];
+    var modal = document.getElementById("imgModal");
+    var imgZoom = document.getElementsByClassName("imgModal-content")[0];
 
     $.getJSON('/json/imagesdb.json', function(data) {
       $.each(data.hikes, function(index, value) {
@@ -50,12 +59,21 @@
         newImg.setAttribute("src", `/images/portfolio/mt-seymour/${arr[i]}`);
         newImg.setAttribute("width", "600");
         newImg.setAttribute("height", "auto");
+        newImg.setAttribute("id", arr[i]);
         document.getElementById("imgCanvas").appendChild(newImg);
+        newImg.onclick = function() {
+          modal.style.display = "block";
+          imgZoom.src = this.src;
+        }
       }
     });
+
+    function extZoom() {
+      modal.style.display = "none";
+    }
   </script>
 
-  <script>
+  <script>//open and close image canvas
     function openCanvas(param) {
       document.getElementById(param).style.width = "100%";
     }
