@@ -1,0 +1,59 @@
+{
+  "hikes": [
+    {
+      "location": "Cypress Mountain",
+      "trail": "St. Marks",
+      "date": "10-21-2018",
+      "id": "20181021_103325",
+      "imgSrc": "20181021_103325.jpg"
+    },
+
+    {
+      "location": "Cypress Mountain",
+      "trail": "St. Marks",
+      "date": "10-21-2018",
+      "id": "20181021_114612",
+      "imgSrc": "20181021_114612.jpg"
+    },
+
+    {
+      "location": "Cypress Mountain",
+      "trail": "St. Marks",
+      "date": "10-21-2018",
+      "id": "20181021_114740",
+      "imgSrc": "20181021_114740.jpg"
+    },
+
+    {
+      "location": "Cypress Mountain",
+      "trail": "St. Marks",
+      "date": "10-21-2018",
+      "id": "20181021_115219",
+      "imgSrc": "20181021_115219.jpg"
+    },
+
+    {
+      "location": "Cypress Mountain",
+      "trail": "St. Marks",
+      "date": "10-21-2018",
+      "id": "20181021_132941",
+      "imgSrc": "20181021_132941.jpg"
+    },
+
+    {
+      "location": "Cypress Mountain",
+      "trail": "St. Marks",
+      "date": "10-21-2018",
+      "id": "20181021_134019",
+      "imgSrc": "20181021_134019.jpg"
+    },
+
+    {
+      "location": "Cypress Mountain",
+      "trail": "St. Marks",
+      "date": "11-12-2018",
+      "id": "20181112_131709",
+      "imgSrc": "20181112_131709.jpg"
+    }
+  ]
+}

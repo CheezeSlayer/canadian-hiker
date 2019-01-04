@@ -19,9 +19,9 @@
 <body>
   <link rel="stylesheet" href="/view/home.css">
 
-  <div class="canvas-overlay" id="mtseymour">
-    <a href="javascript:void(0)" class="closebtn" id="canvasbtn" onclick="closeCanvas('mtseymour')">&times;</a>
-    <h1>Mt. Seymour</h1>
+  <div class="canvas-overlay" id="overlay">
+    <h1 id="canvasHead"></h1>
+    <a href="javascript:void(0)" class="closebtn" id="canvasbtn" onclick="closeCanvas()">&times;</a>
     <div class="canvas-container" id="imgCanvas"></div>
   </div>
 
@@ -31,16 +31,22 @@
     </div>
   </div>
 
-
   <div class="canvas-cover">
-    <div class="canvasImg" style="cursor: pointer" onclick="openCanvas('mtseymour')">
-      <h1>Mt. Seymour</h1>
-      <img src = "/images/portfolio/mt-seymour/20181201_121840.jpg">
+
+    <div class="canvasImg" style="cursor: pointer" onclick="openCanvas()">
+      <h1 id="Hmt-seymour">Mt. Seymour - Pump Peak</h1>
+      <a href="#" onclick="setCanvasHead('Hmt-seymour'); loadCanvas('mt-seymour'); setCanvas('mt-seymour');">
+        <img src = "/images/portfolio/mt-seymour/20181201_121840.jpg">
+      </a>
     </div>
-    <div class="canvasImg" style="cursor: pointer" onclick="openCanvas('mtseymour')">
-      <h1>Mt. Seymour</h1>
-      <img src = "/images/portfolio/mt-seymour/20181201_121840.jpg">
+
+    <div class="canvasImg" style="cursor: pointer" onclick="openCanvas('stmarks')">
+      <h1 id="Hst-marks">Cypress Mountain - St. Marks</h1>
+      <a href="#" onclick="setCanvasHead('Hst-marks'); loadCanvas('st-marks'); setCanvas('st-marks');">
+        <img src = "/images/portfolio/st-marks/20181112_131709.jpg">
+      </a>
     </div>
+
   </div>
 
   <script>//create canvas from images stored in local folder
@@ -48,25 +54,44 @@
     var modal = document.getElementById("imgModal");
     var imgZoom = document.getElementsByClassName("imgModal-content")[0];
 
-    $.getJSON('/json/imagesdb.json', function(data) {
-      $.each(data.hikes, function(index, value) {
-        arr.push(data.hikes[index].imgSrc);
+    function setCanvasHead(headerID) {
+      var hcanvas = document.getElementById(headerID);
+      $("#canvasHead").text($(hcanvas).text());
+      console.log(headerID);
+      console.log(hcanvas);
+    }
+
+    function loadCanvas(canvasJSON) {
+      arr = [];
+      $.getJSON(`/json/${canvasJSON}.json`, function(data) {
+        $.each(data.hikes, function(index, value) {
+          arr.push(data.hikes[index].imgSrc);
+        });
+        console.log(arr.length);
+        console.log(arr);
       });
-      console.log(arr.length);
-      console.log(arr);
-      for ( i = 0; i < arr.length; i++ ) {
-        var newImg = document.createElement("IMG");
-        newImg.setAttribute("src", `/images/portfolio/mt-seymour/${arr[i]}`);
-        newImg.setAttribute("width", "600");
-        newImg.setAttribute("height", "auto");
-        newImg.setAttribute("id", arr[i]);
-        document.getElementById("imgCanvas").appendChild(newImg);
-        newImg.onclick = function() {
-          modal.style.display = "block";
-          imgZoom.src = this.src;
+    }
+
+    function setCanvas(canvasID) {
+      setTimeout( function() {
+        while( document.getElementById("imgCanvas").firstChild ) {
+          document.getElementById("imgCanvas").removeChild(document.getElementById("imgCanvas").firstChild);
         }
-      }
-    });
+
+        for ( i = 0; i < arr.length; i++ ) {
+          var newImg = document.createElement("IMG");
+          newImg.setAttribute("src", `/images/portfolio/${canvasID}/${arr[i]}`);
+          newImg.setAttribute("width", "600");
+          newImg.setAttribute("height", "auto");
+          newImg.setAttribute("id", arr[i]);
+          document.getElementById("imgCanvas").appendChild(newImg);
+          newImg.onclick = function() {
+            modal.style.display = "block";
+            imgZoom.src = this.src;
+          }
+        }
+      }, 30);
+    }
 
     function extZoom() {
       modal.style.display = "none";
@@ -74,12 +99,12 @@
   </script>
 
   <script>//open and close image canvas
-    function openCanvas(param) {
-      document.getElementById(param).style.width = "100%";
+    function openCanvas() {
+      document.getElementById("overlay").style.width = "100%";
     }
 
-    function closeCanvas(param) {
-      document.getElementById(param).style.width = "0%";
+    function closeCanvas() {
+      document.getElementById("overlay").style.width = "0%";
     }
   </script>
 

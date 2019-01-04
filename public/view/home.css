@@ -10,6 +10,7 @@
 .canvas-overlay {
   height: 100%;
   width: 0;
+  padding-top: 50px;
   position: fixed;
   background-color: rgba(0,0,0,0.9);
   overflow-x: hidden;
@@ -94,8 +95,8 @@
     font-weight: bold;
     font-style: normal;
     line-height: 1.8em;
-    font-size: 20px;
-    letter-spacing: .04em;
+    font-size: 15px;
+    letter-spacing: .02em;
 }
 .canvas-cover img{
     width: 600px;
