@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="/js/home.js"></script>
   <script type="text/javascript">
   $(document).ready(function(){
         $("#navbar").load("/model/index.html");
@@ -40,73 +41,21 @@
       </a>
     </div>
 
-    <div class="canvasImg" style="cursor: pointer" onclick="openCanvas('stmarks')">
+    <div class="canvasImg" style="cursor: pointer" onclick="openCanvas()">
       <h1 id="Hst-marks">Cypress Mountain - St. Marks</h1>
       <a href="#" onclick="setCanvasHead('Hst-marks'); loadCanvas('st-marks'); setCanvas('st-marks');">
         <img src = "/images/portfolio/st-marks/20181112_131709.jpg">
       </a>
     </div>
 
+    <div class="canvasImg" style="cursor: pointer" onclick="openCanvas()">
+      <h1 id="Hthe-chief">Squamish - Stawamus Chief</h1>
+      <a href="#" onclick="setCanvasHead('Hthe-chief'); loadCanvas('the-chief'); setCanvas('the-chief');">
+        <img src = "/images/portfolio/the-chief/20181006_115045.jpg">
+      </a>
+    </div>
+
   </div>
-
-  <script>//create canvas from images stored in local folder
-    var arr = [];
-    var modal = document.getElementById("imgModal");
-    var imgZoom = document.getElementsByClassName("imgModal-content")[0];
-
-    function setCanvasHead(headerID) {
-      var hcanvas = document.getElementById(headerID);
-      $("#canvasHead").text($(hcanvas).text());
-      console.log(headerID);
-      console.log(hcanvas);
-    }
-
-    function loadCanvas(canvasJSON) {
-      arr = [];
-      $.getJSON(`/json/${canvasJSON}.json`, function(data) {
-        $.each(data.hikes, function(index, value) {
-          arr.push(data.hikes[index].imgSrc);
-        });
-        console.log(arr.length);
-        console.log(arr);
-      });
-    }
-
-    function setCanvas(canvasID) {
-      setTimeout( function() {
-        while( document.getElementById("imgCanvas").firstChild ) {
-          document.getElementById("imgCanvas").removeChild(document.getElementById("imgCanvas").firstChild);
-        }
-
-        for ( i = 0; i < arr.length; i++ ) {
-          var newImg = document.createElement("IMG");
-          newImg.setAttribute("src", `/images/portfolio/${canvasID}/${arr[i]}`);
-          newImg.setAttribute("width", "600");
-          newImg.setAttribute("height", "auto");
-          newImg.setAttribute("id", arr[i]);
-          document.getElementById("imgCanvas").appendChild(newImg);
-          newImg.onclick = function() {
-            modal.style.display = "block";
-            imgZoom.src = this.src;
-          }
-        }
-      }, 30);
-    }
-
-    function extZoom() {
-      modal.style.display = "none";
-    }
-  </script>
-
-  <script>//open and close image canvas
-    function openCanvas() {
-      document.getElementById("overlay").style.width = "100%";
-    }
-
-    function closeCanvas() {
-      document.getElementById("overlay").style.width = "0%";
-    }
-  </script>
 
 </body>
 

@@ -1,0 +1,83 @@
+{
+  "hikes": [
+    {
+      "location": "Squamish",
+      "trail": "Stawamus Chief",
+      "date": "10-6-2018",
+      "id": "20181006_115045",
+      "imgSrc": "20181006_115045.jpg"
+    },
+
+    {
+      "location": "Squamish",
+      "trail": "Stawamus Chief",
+      "date": "10-6-2018",
+      "id": "20181006_124333",
+      "imgSrc": "20181006_124333.jpg"
+    },
+
+    {
+      "location": "Squamish",
+      "trail": "Stawamus Chief",
+      "date": "10-6-2018",
+      "id": "20181006_124337",
+      "imgSrc": "20181006_124337.jpg"
+    },
+
+    {
+      "location": "Squamish",
+      "trail": "Stawamus Chief",
+      "date": "10-6-2018",
+      "id": "20181006_124343",
+      "imgSrc": "20181006_124343.jpg"
+    },
+
+    {
+      "location": "Squamish",
+      "trail": "Stawamus Chief",
+      "date": "10-6-2018",
+      "id": "20181006_124501",
+      "imgSrc": "20181006_124501.jpg"
+    },
+
+    {
+      "location": "Squamish",
+      "trail": "Stawamus Chief",
+      "date": "10-6-2018",
+      "id": "20181006_124538",
+      "imgSrc": "20181006_124538.jpg"
+    },
+
+    {
+      "location": "Squamish",
+      "trail": "Stawamus Chief",
+      "date": "10-6-2018",
+      "id": "20181006_130209",
+      "imgSrc": "20181006_130209.jpg"
+    },
+
+    {
+      "location": "Squamish",
+      "trail": "Stawamus Chief",
+      "date": "10-6-2018",
+      "id": "20181006_131034",
+      "imgSrc": "20181006_131034.jpg"
+    },
+
+    {
+      "location": "Squamish",
+      "trail": "Stawamus Chief",
+      "date": "10-6-2018",
+      "id": "20181006_131038",
+      "imgSrc": "20181006_131038.jpg"
+    },
+
+    {
+      "location": "Squamish",
+      "trail": "Stawamus Chief",
+      "date": "10-6-2018",
+      "id": "20181006_134920",
+      "imgSrc": "20181006_134920.jpg"
+    }
+  ]
+}

@@ -5,7 +5,7 @@ html {
 
 /*default link color*/
 a {
-  color: grey;
+  color: #666666;
   text-decoration: none;
   transition: color 0.3s linear;
   -webkit-transition: color 0.3s linear;
