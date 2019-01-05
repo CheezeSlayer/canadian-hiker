@@ -1,0 +1,43 @@
+{
+  "hikes": [
+    {
+      "location": "Coquitlam",
+      "trail": "Swan Falls",
+      "date": "8-19-2018",
+      "id": "20180819_123841",
+      "imgSrc": "20180819_123841.jpg"
+    },
+
+    {
+      "location": "Coquitlam",
+      "trail": "Swan Falls",
+      "date": "8-19-2018",
+      "id": "20180819_124604",
+      "imgSrc": "20180819_124604.jpg"
+    },
+
+    {
+      "location": "Coquitlam",
+      "trail": "Swan Falls",
+      "date": "8-19-2018",
+      "id": "20180819_124609",
+      "imgSrc": "20180819_124609.jpg"
+    },
+
+    {
+      "location": "Coquitlam",
+      "trail": "Swan Falls",
+      "date": "8-19-2018",
+      "id": "20180819_125627",
+      "imgSrc": "20180819_125627.jpg"
+    },
+
+    {
+      "location": "Coquitlam",
+      "trail": "Swan Falls",
+      "date": "8-19-2018",
+      "id": "20180819_124441",
+      "imgSrc": "20180819_124441.jpg"
+    }
+  ]
+}

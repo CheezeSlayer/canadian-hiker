@@ -1,0 +1,83 @@
+{
+  "hikes": [
+    {
+      "location": "Howe Sound",
+      "trail": "Deeks Lake Trail",
+      "date": "9-2-2018",
+      "id": "20180902_115644",
+      "imgSrc": "20180902_115644.jpg"
+    },
+
+    {
+      "location": "Howe Sound",
+      "trail": "Deeks Lake Trail",
+      "date": "9-2-2018",
+      "id": "20180902_140646",
+      "imgSrc": "20180902_140646.jpg"
+    },
+
+    {
+      "location": "Howe Sound",
+      "trail": "Deeks Lake Trail",
+      "date": "9-2-2018",
+      "id": "20180902_143112",
+      "imgSrc": "20180902_143112.jpg"
+    },
+
+    {
+      "location": "Howe Sound",
+      "trail": "Deeks Lake Trail",
+      "date": "9-2-2018",
+      "id": "20180902_181357",
+      "imgSrc": "20180902_181357.jpg"
+    },
+
+    {
+      "location": "Howe Sound",
+      "trail": "Deeks Lake Trail",
+      "date": "9-2-2018",
+      "id": "20180903_082258",
+      "imgSrc": "20180903_082258.jpg"
+    },
+
+    {
+      "location": "Howe Sound",
+      "trail": "Deeks Lake Trail",
+      "date": "9-2-2018",
+      "id": "20180903_082313",
+      "imgSrc": "20180903_082313.jpg"
+    },
+
+    {
+      "location": "Howe Sound",
+      "trail": "Deeks Lake Trail",
+      "date": "9-2-2018",
+      "id": "20180903_114418",
+      "imgSrc": "20180903_114418.jpg"
+    },
+
+    {
+      "location": "Howe Sound",
+      "trail": "Deeks Lake Trail",
+      "date": "9-2-2018",
+      "id": "20180903_124231",
+      "imgSrc": "20180903_124231.jpg"
+    },
+
+    {
+      "location": "Howe Sound",
+      "trail": "Deeks Lake Trail",
+      "date": "9-2-2018",
+      "id": "20180903_124242",
+      "imgSrc": "20180903_124242.jpg"
+    },
+
+    {
+      "location": "Howe Sound",
+      "trail": "Deeks Lake Trail",
+      "date": "9-2-2018",
+      "id": "20180903_150355",
+      "imgSrc": "20180903_150355.jpg"
+    }
+  ]
+}
