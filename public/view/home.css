@@ -36,7 +36,7 @@
 }
 .canvas-overlay h1 {
   text-align: center;
-  font-family: "Courier New";
+  font-family: "Trebuchet MS";
     font-weight: bold;
     font-style: normal;
     line-height: 1.8em;
@@ -91,7 +91,7 @@
 .canvas-cover {
   text-align: center;
   margin-top: 30px;
-  font-family: "Courier New";
+  font-family: "Trebuchet MS";
     font-weight: bold;
     font-style: normal;
     line-height: 1.8em;
@@ -100,6 +100,7 @@
 }
 .canvas-cover img{
     width: 600px;
+    margin: 10px;
     height: auto;
     border: 5px solid grey;
     transition: border 0.3s linear;

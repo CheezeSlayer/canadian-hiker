@@ -1,0 +1,86 @@
+.outerDiv {
+  text-align: center;
+  margin-top: 30px;
+}
+.outerDiv h1 {
+  text-align: center;
+}
+.outerDiv::after{
+  content: "";
+  background-image: url("/images/background/grouse.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.innerDiv {
+  text-align: left;
+  display: inline-block;
+  padding: 20px;
+  width: 30%;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: lightgrey;
+  font-family: "Trebuchet MS";
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.8em;
+    letter-spacing: .04em;
+}
+
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+#message {
+  height: 200px;
+}
+input[type=submit] {
+  background-color: #cccccc;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Trebuchet MS";
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.8em;
+    letter-spacing: .04em;
+    font-size: 20px;
+  transition: 0.3s;
+}
+input[type=submit]:hover {
+  opacity: 0.5;
+}
+
+.contact-container {
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
+  padding: 20px;
+  width: 15%;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: lightgrey;
+  font-family: "Trebuchet MS";
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.8em;
+    letter-spacing: .04em;
+}
+.contact-container h1 {
+  text-align: right;
+}

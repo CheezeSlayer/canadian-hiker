@@ -3,6 +3,10 @@ html {
   background-color: #cccccc;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+}
 /*default link color*/
 a {
   color: #666666;
@@ -19,6 +23,7 @@ a:hover {
 
 .banner {
   display: inline-block;
+  background-color: #cccccc;
   width: 100%;
   border-bottom-style: solid;
   border-bottom-color: darkgrey;
@@ -38,7 +43,7 @@ button.bannerRight {
   height: 80px;
   padding: 14px 40px;
   background-color: transparent;
-  font-family: "Courier New";
+  font-family: "Trebuchet MS";
     font-weight: bold;
     font-style: normal;
     line-height: 1.8em;

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="/view/style.css">
+  <meta name="viewport" content="width=device-width">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $("#navbar").load("/model/index.html")
+    });
+  </script>
+</head>
+
+  <div id="navbar">
+  </div>
+
+<body>
+  <link rel="stylesheet" href="/view/contact.css">
+
+  <div class="outerDiv">
+    <div class="innerDiv">
+      <br>
+      <h1>Lets Talk</h1>
+      <br>
+      <form action="mailto:hchang1994@hotmail.com">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="fname" placeholder="First name..">
+
+        <label for="lasttName">Last Name:</label>
+        <input type="text" id="lastName" name="lname" placeholder="Last name..">
+
+        <label for="emailAddress">Email Address:</label>
+        <input type="text" id="emailAddress" name="email" placeholder="Email address..">
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subjectBox" placeholder="Subject...">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="msgBox" placeholder="What's up?"></textarea>
+
+        <input type="submit" value="Submit">
+    </div>
+    <div class="contact-container">
+      <h1>Henry Chang</h1>
+      <br>
+      <p>social: @canadian.hiker</p>
+      <p>email: hchang1994@hotmail.com</p>
+    </div>
+  </div>
+</body>
+
+</html>

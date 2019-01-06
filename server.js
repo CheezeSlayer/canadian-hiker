@@ -7,8 +7,22 @@ app.set('views', __dirname + '/public/view');
 
 app.use(express.static(__dirname + '/public'));
 
+
+//--Define routes
 app.get('/', (req, res) => {
   res.sendfile('pages/home.html', {
+  });
+
+});
+
+app.get('/pages/home.html', (req, res) => {
+  res.sendfile('pages/home.html', {
+  });
+
+});
+
+app.get('/pages/prints.html', (req, res) => {
+  res.sendfile('pages/prints.html', {
   });
 
 });
@@ -19,8 +33,8 @@ app.get('/pages/about.html', (req, res) => {
 
 });
 
-app.get('/pages/home.html', (req, res) => {
-  res.sendfile('pages/home.html', {
+app.get('/pages/contact.html', (req, res) => {
+  res.sendfile('pages/contact.html', {
   });
 
 });
