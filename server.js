@@ -71,7 +71,6 @@ app.post('/send-email', function(req, res) {
   });
 });
 
-
-const server = app.listen(3000, () => {
-  console.log(`Express running -> PORT ${server.address().port}`);
+app.listen(process.env.PORT || port, function(){
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 });
