@@ -19,56 +19,56 @@
 <body>
   <link rel="stylesheet" href="/view/home.css">
 
-  <div class="canvas-overlay" id="overlay">
-    <h1 id="canvasHead"></h1>
-    <a href="javascript:void(0)" class="closebtn" id="canvasbtn" onclick="closeCanvas()">&times;</a>
-    <div class="canvas-container" id="imgCanvas"></div>
-  </div>
 
-  <div class="modal" id="imgModal">
-    <div class="closebtn" id="modalbtn" style="cursor: pointer" onclick="extZoom()">&times;</div>
-      <img class="imgModal-content">
-    </div>
-  </div>
+<div class="home-container">
+      <div class="canvas-overlay" id="overlay">
+        <h1 id="canvasHead"></h1>
+        <a href="javascript:void(0)" class="closebtn" id="canvasbtn" onclick="closeCanvas()">&times;</a>
+        <div class="canvas-container" id="imgCanvas"></div>
+      </div>
+      <div class="modal" id="imgModal">
+          <div class="closebtn" id="modalbtn" style="cursor: pointer" onclick="extZoom()">&times;</div>
+          <img class="imgModal-content">
+      </div>
 
-  <div class="canvas-cover">
+      <div class="canvas-cover">
+            <div class="canvasImg" style="cursor: pointer" onclick="openCanvas()">
+              <h1 id="Hmt-seymour">Mt. Seymour - Pump Peak</h1>
+              <a href="#" onclick="setCanvasHead('Hmt-seymour'); loadCanvas('mt-seymour'); setCanvas('mt-seymour');">
+                <img src = "/images/portfolio/mt-seymour/20181201_121840.jpg">
+              </a>
+            </div>
 
-    <div class="canvasImg" style="cursor: pointer" onclick="openCanvas()">
-      <h1 id="Hmt-seymour">Mt. Seymour - Pump Peak</h1>
-      <a href="#" onclick="setCanvasHead('Hmt-seymour'); loadCanvas('mt-seymour'); setCanvas('mt-seymour');">
-        <img src = "/images/portfolio/mt-seymour/20181201_121840.jpg">
-      </a>
-    </div>
+            <div class="canvasImg" style="cursor: pointer" onclick="openCanvas()">
+              <h1 id="Hst-marks">Cypress Mountain - St. Marks</h1>
+              <a href="#" onclick="setCanvasHead('Hst-marks'); loadCanvas('st-marks'); setCanvas('st-marks');">
+                <img src = "/images/portfolio/st-marks/20181112_131709.jpg">
+              </a>
+            </div>
 
-    <div class="canvasImg" style="cursor: pointer" onclick="openCanvas()">
-      <h1 id="Hst-marks">Cypress Mountain - St. Marks</h1>
-      <a href="#" onclick="setCanvasHead('Hst-marks'); loadCanvas('st-marks'); setCanvas('st-marks');">
-        <img src = "/images/portfolio/st-marks/20181112_131709.jpg">
-      </a>
-    </div>
+            <div class="canvasImg" style="cursor: pointer" onclick="openCanvas()">
+              <h1 id="Hthe-chief">Squamish - Stawamus Chief</h1>
+              <a href="#" onclick="setCanvasHead('Hthe-chief'); loadCanvas('the-chief'); setCanvas('the-chief');">
+                <img src = "/images/portfolio/the-chief/20181006_115045.jpg">
+              </a>
+            </div>
 
-    <div class="canvasImg" style="cursor: pointer" onclick="openCanvas()">
-      <h1 id="Hthe-chief">Squamish - Stawamus Chief</h1>
-      <a href="#" onclick="setCanvasHead('Hthe-chief'); loadCanvas('the-chief'); setCanvas('the-chief');">
-        <img src = "/images/portfolio/the-chief/20181006_115045.jpg">
-      </a>
-    </div>
+            <div class="canvasImg" style="cursor: pointer" onclick="openCanvas()">
+              <h1 id="Hdeeks-lake">Howe Sound - Deeks Lake</h1>
+              <a href="#" onclick="setCanvasHead('Hdeeks-lake'); loadCanvas('deeks-lake'); setCanvas('deeks-lake');">
+                <img src = "/images/portfolio/deeks-lake/20180903_082313.jpg">
+              </a>
+            </div>
 
-    <div class="canvasImg" style="cursor: pointer" onclick="openCanvas()">
-      <h1 id="Hdeeks-lake">Howe Sound - Deeks Lake</h1>
-      <a href="#" onclick="setCanvasHead('Hdeeks-lake'); loadCanvas('deeks-lake'); setCanvas('deeks-lake');">
-        <img src = "/images/portfolio/deeks-lake/20180903_082313.jpg">
-      </a>
-    </div>
+            <div class="canvasImg" style="cursor: pointer" onclick="openCanvas()">
+              <h1 id="Hswan-falls">Coquitlam - Swan Falls</h1>
+              <a href="#" onclick="setCanvasHead('Hswan-falls'); loadCanvas('swan-falls'); setCanvas('swan-falls');">
+                <img src = "/images/portfolio/swan-falls/20180819_125627.jpg">
+              </a>
+            </div>
+      </div>
+</div>
 
-    <div class="canvasImg" style="cursor: pointer" onclick="openCanvas()">
-      <h1 id="Hswan-falls">Coquitlam - Swan Falls</h1>
-      <a href="#" onclick="setCanvasHead('Hswan-falls'); loadCanvas('swan-falls'); setCanvas('swan-falls');">
-        <img src = "/images/portfolio/swan-falls/20180819_125627.jpg">
-      </a>
-    </div>
-
-  </div>
 </body>
 
 </html>

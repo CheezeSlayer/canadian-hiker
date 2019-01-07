@@ -10,6 +10,7 @@
   background-image: url("/images/background/grouse.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: scroll;
   opacity: 1;
   top: 0;
   left: 0;
@@ -34,6 +35,16 @@
     letter-spacing: .04em;
 }
 
+input[type=email] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
 input[type=text], textarea {
   width: 100%;
   padding: 12px;

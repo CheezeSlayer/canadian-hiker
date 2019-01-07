@@ -4,6 +4,7 @@
   background-image: url("/images/background/lynnpeak.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: scroll;
   opacity: 1;
   top: 0;
   left: 0;
@@ -60,12 +61,12 @@ h3 {
   text-align: center;
 }
 .fab {
-  color: #666666;
+  color: lightgrey;
   font-size:60px;
   transition: 0.3s linear;
 }
 .fab:hover {
-  color: white;
+  color: #666666;
 }
 .slideshow {
   display: inline-block;

@@ -12,6 +12,7 @@
   background-image: url("/images/background/swanfalls.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: scroll;
   opacity: 1;
   top: 0;
   left: 0;
