@@ -5,6 +5,10 @@ function setCanvasHead(headerID) {
   console.log(hcanvas);
 }
 
+var modal;
+var imgZoom;
+var arr;
+
 function loadCanvas(canvasJSON) {
   arr = [];
   $.getJSON(`/json/${canvasJSON}.json`, function(data) {
@@ -16,15 +20,12 @@ function loadCanvas(canvasJSON) {
   });
 }
 
-var arr = [];
-var modal;
-var imgZoom;
-
 function setCanvas(canvasID) {
   setTimeout( function() {
     while( document.getElementById("imgCanvas").firstChild ) {
       document.getElementById("imgCanvas").removeChild(document.getElementById("imgCanvas").firstChild);
     }
+    console.log("canvas cleared");
 
     modal = document.getElementById("imgModal");
     imgZoom = document.getElementsByClassName("imgModal-content")[0];
