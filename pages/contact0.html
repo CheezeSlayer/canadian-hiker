@@ -11,12 +11,18 @@
       $("#navbar").load("/model/index.html")
     });
   </script>
+
+  <script>
+    function emailSuccess() {
+      alert("Email Sent Successfully");
+    }
+  </script>
 </head>
 
   <div id="navbar">
   </div>
 
-<body>
+<body onload="emailSuccess()">
   <link rel="stylesheet" href="/view/contact.css">
 
   <div class="outerDiv">

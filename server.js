@@ -67,7 +67,7 @@ app.post('/send-email', function(req, res) {
       return console.log(error);
     }
     console.log('Message %s send: %s', info.messageId, info.response);
-    res.sendfile('pages/contact.html', {
+    res.sendfile('pages/contact0.html', {
     });
   });
 });
