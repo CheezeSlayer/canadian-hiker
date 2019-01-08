@@ -35,6 +35,7 @@ function setCanvas(canvasID) {
       newImg.setAttribute("width", "600");
       newImg.setAttribute("height", "auto");
       newImg.setAttribute("id", arr[i]);
+      console.log(newImg.src);
       document.getElementById("imgCanvas").appendChild(newImg);
       newImg.onclick = function() {
         modal.style.display = "block";
