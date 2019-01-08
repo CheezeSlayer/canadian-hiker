@@ -15,8 +15,8 @@ function loadCanvas(canvasJSON) {
     $.each(data.hikes, function(index, value) {
       arr.push(data.hikes[index].imgSrc);
     });
-    console.log(arr.length);
-    console.log(arr);
+    //console.log(arr.length);
+    //console.log(arr);
   });
 }
 
@@ -25,11 +25,10 @@ function setCanvas(canvasID) {
     while( document.getElementById("imgCanvas").firstChild ) {
       document.getElementById("imgCanvas").removeChild(document.getElementById("imgCanvas").firstChild);
     }
-    console.log("canvas cleared");
 
     modal = document.getElementById("imgModal");
     imgZoom = document.getElementsByClassName("imgModal-content")[0];
-
+    console.log(arr.length);
     for ( i = 0; i < arr.length; i++ ) {
       var newImg = document.createElement("IMG");
       newImg.setAttribute("src", `/images/portfolio/${canvasID}/${arr[i]}`);
@@ -43,7 +42,7 @@ function setCanvas(canvasID) {
         imgZoom.src = this.src;
       }
     }
-  }, 30);
+  }, 300);
 }
 
 function extZoom() {
