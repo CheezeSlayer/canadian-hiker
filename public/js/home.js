@@ -42,7 +42,7 @@ function setCanvas(canvasID) {
         imgZoom.src = this.src;
       }
     }
-  }, 500);
+  }, 300);
 }
 
 function extZoom() {
