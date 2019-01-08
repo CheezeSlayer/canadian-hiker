@@ -22,9 +22,6 @@ function loadCanvas(canvasJSON) {
 
 function setCanvas(canvasID) {
   setTimeout( function() {
-    while( document.getElementById("imgCanvas").firstChild ) {
-      document.getElementById("imgCanvas").removeChild(document.getElementById("imgCanvas").firstChild);
-    }
 
     modal = document.getElementById("imgModal");
     imgZoom = document.getElementsByClassName("imgModal-content")[0];
@@ -55,4 +52,7 @@ function openCanvas() {
 
 function closeCanvas() {
   document.getElementById("overlay").style.width = "0%";
+  while( document.getElementById("imgCanvas").firstChild ) {
+    document.getElementById("imgCanvas").removeChild(document.getElementById("imgCanvas").firstChild);
+  }
 }
