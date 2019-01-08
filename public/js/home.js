@@ -31,7 +31,7 @@ function setCanvas(canvasID) {
 
     for ( i = 0; i < arr.length; i++ ) {
       var newImg = document.createElement("IMG");
-      newImg.setAttribute("src", `images/portfolio/${canvasID}/${arr[i]}`);
+      newImg.setAttribute("src", `/images/portfolio/${canvasID}/${arr[i]}`);
       newImg.setAttribute("width", "600");
       newImg.setAttribute("height", "auto");
       newImg.setAttribute("id", arr[i]);
