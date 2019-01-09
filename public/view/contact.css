@@ -1,26 +1,21 @@
 .outerDiv {
   text-align: center;
-  margin-top: 30px;
+  background-image: url("/images/background/grouse.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: fixed;
+  overflow: auto;
+  height: 100%;
+  border-top: grey solid;
 }
 .outerDiv h1 {
   text-align: center;
 }
-.outerDiv::after{
-  content: "";
-  background-image: url("/images/background/grouse.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: scroll;
-  opacity: 1;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-}
 
 .innerDiv {
+  margin-top: 30px;
+  margin-bottom: 100px;
   text-align: left;
   display: inline-block;
   padding: 20px;
@@ -78,6 +73,8 @@ input[type=submit]:hover {
 }
 
 .contact-container {
+  margin-top: 30px;
+  margin-bottom: 100px;
   display: inline-block;
   vertical-align: top;
   text-align: right;

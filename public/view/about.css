@@ -1,17 +1,13 @@
 /*about field*/
-.about-container::after {
-  content: "";
+.about-container {
   background-image: url("/images/background/lynnpeak.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
   background-attachment: scroll;
-  opacity: 1;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+  border-top: grey solid;
 }
 .about-content {
   text-align: center;

@@ -1,25 +1,22 @@
 .prints-container {
   margin: 30px;
   text-align: center;
+  margin-bottom: 100px;
   font-family: "Trebuchet MS";
     font-weight: bold;
     font-style: normal;
     line-height: 1.8em;
     letter-spacing: .04em;
 }
-.prints-container::after {
-  content: "";
+.prints-background {
   background-image: url("/images/background/swanfalls.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
-  background-attachment: scroll;
-  opacity: 1;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
+  background-attachment: fixed;
+  position: fixed;
+  overflow: auto;
+  height: 100%;
+  border-top: grey solid;
 }
 .prints-container h1 {
   margin: 30px;
