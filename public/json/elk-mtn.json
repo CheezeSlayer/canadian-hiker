@@ -1,0 +1,59 @@
+{
+  "hikes": [
+    {
+      "location": "Chilliwack",
+      "trail": "Elk Mountain",
+      "date": "1-27-2018",
+      "id": "20190127_102501",
+      "imgSrc": "20190127_102501.jpg"
+    },
+
+    {
+      "location": "Chilliwack",
+      "trail": "Elk Mountain",
+      "date": "1-27-2018",
+      "id": "20190127_103402",
+      "imgSrc": "20190127_103402.jpg"
+    },
+
+    {
+      "location": "Chilliwack",
+      "trail": "Elk Mountain",
+      "date": "1-27-2018",
+      "id": "20190127_115104",
+      "imgSrc": "20190127_115104.jpg"
+    },
+
+    {
+      "location": "Chilliwack",
+      "trail": "Elk Mountain",
+      "date": "1-27-2018",
+      "id": "20190127_121445",
+      "imgSrc": "20190127_121445.jpg"
+    },
+
+    {
+      "location": "Chilliwack",
+      "trail": "Elk Mountain",
+      "date": "1-27-2018",
+      "id": "20190127_122643",
+      "imgSrc": "20190127_122643.jpg"
+    },
+
+    {
+      "location": "Chilliwack",
+      "trail": "Elk Mountain",
+      "date": "1-27-2018",
+      "id": "20190127_125945",
+      "imgSrc": "20190127_125945.jpg"
+    },
+
+    {
+      "location": "Chilliwack",
+      "trail": "Elk Mountain",
+      "date": "1-27-2018",
+      "id": "20190127_130147",
+      "imgSrc": "20190127_130147.jpg"
+    }
+  ]
+}
