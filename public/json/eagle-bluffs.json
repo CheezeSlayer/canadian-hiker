@@ -1,0 +1,91 @@
+{
+  "hikes": [
+    {
+      "location": "Cypress Mountain",
+      "trail": "Eagle Bluffs",
+      "date": "1-12-2019",
+      "id": "20190112_115841",
+      "imgSrc": "20190112_115841.jpg"
+    },
+
+    {
+      "location": "Cypress Mountain",
+      "trail": "Eagle Bluffs",
+      "date": "1-12-2019",
+      "id": "20190112_114052",
+      "imgSrc": "20190112_114052.jpg"
+    },
+
+    {
+      "location": "Cypress Mountain",
+      "trail": "Eagle Bluffs",
+      "date": "1-12-2019",
+      "id": "20190112_111634",
+      "imgSrc": "20190112_111634.jpg"
+    },
+
+    {
+      "location": "Cypress Mountain",
+      "trail": "Eagle Bluffs",
+      "date": "1-12-2019",
+      "id": "20190112_111625",
+      "imgSrc": "20190112_111625.jpg"
+    },
+
+    {
+      "location": "Cypress Mountain",
+      "trail": "Eagle Bluffs",
+      "date": "1-12-2019",
+      "id": "20190112_105239",
+      "imgSrc": "20190112_105239.jpg"
+    },
+
+    {
+      "location": "Cypress Mountain",
+      "trail": "Eagle Bluffs",
+      "date": "1-12-2019",
+      "id": "20190112_102812",
+      "imgSrc": "20190112_102812.jpg"
+    },
+
+    {
+      "location": "Cypress Mountain",
+      "trail": "Eagle Bluffs",
+      "date": "1-12-2019",
+      "id": "20190112_102715",
+      "imgSrc": "20190112_102715.jpg"
+    },
+
+    {
+      "location": "Cypress Mountain",
+      "trail": "Eagle Bluffs",
+      "date": "1-12-2019",
+      "id": "20190112_102056",
+      "imgSrc": "20190112_102056.jpg"
+    },
+
+    {
+      "location": "Cypress Mountain",
+      "trail": "Eagle Bluffs",
+      "date": "1-12-2019",
+      "id": "20190112_100246",
+      "imgSrc": "20190112_100246.jpg"
+    },
+
+    {
+      "location": "Cypress Mountain",
+      "trail": "Eagle Bluffs",
+      "date": "1-12-2019",
+      "id": "20190112_100054",
+      "imgSrc": "20190112_100054.jpg"
+    },
+
+    {
+      "location": "Cypress Mountain",
+      "trail": "Eagle Bluffs",
+      "date": "1-12-2019",
+      "id": "20190112_095624",
+      "imgSrc": "20190112_095624.jpg"
+    }
+  ]
+}
