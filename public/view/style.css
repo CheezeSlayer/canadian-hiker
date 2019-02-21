@@ -19,25 +19,25 @@ a:hover {
   color: #000000;
 }
 
+.nav-link {
+  padding-right: 40px;
+}
 /*Banner alignments*/
 
 .banner {
-  display: inline-block;
   background-color: #cccccc;
   width: 100%;
 }
 
-.bannerRight {
-  float: right;
-}
-
-.bannerLeft {
-  float: left;
+.logo {
+  display: inline-block;
 }
 
 /*Buttons*/
 
-button.bannerRight {
+.links {
+  float: right;
+  display: inline-block;
   height: 80px;
   padding: 14px 40px;
   background-color: transparent;
