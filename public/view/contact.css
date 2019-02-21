@@ -1,13 +1,18 @@
-.outerDiv {
-  text-align: center;
+
+.contact-background {
   background-image: url("/images/background/grouse.jpg");
   background-repeat: repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: scroll;
+  height: 100%;
+  width: 100%;
   position: fixed;
   overflow: auto;
-  height: 100%;
   border-top: grey solid;
+}
+
+.outerDiv {
+  text-align: center;
 }
 .outerDiv h1 {
   text-align: center;
