@@ -1,0 +1,83 @@
+{
+  "hikes": [
+    {
+      "location": "North Vancouver",
+      "trail": "Grouse Mountain",
+      "date": "4-26-2019",
+      "id": "20190426_111718",
+      "imgSrc": "20190426_111718.jpg"
+    },
+
+    {
+      "location": "North Vancouver",
+      "trail": "Grouse Mountain",
+      "date": "4-26-2019",
+      "id": "20190426_112003",
+      "imgSrc": "20190426_112003.jpg"
+    },
+
+    {
+      "location": "North Vancouver",
+      "trail": "Grouse Mountain",
+      "date": "4-26-2019",
+      "id": "20190426_120121",
+      "imgSrc": "20190426_120121.jpg"
+    },
+
+    {
+      "location": "North Vancouver",
+      "trail": "Grouse Mountain",
+      "date": "4-26-2019",
+      "id": "20190426_120344",
+      "imgSrc": "20190426_120344.jpg"
+    },
+
+    {
+      "location": "North Vancouver",
+      "trail": "Grouse Mountain",
+      "date": "4-26-2019",
+      "id": "20190426_120353",
+      "imgSrc": "20190426_120353.jpg"
+    },
+
+    {
+      "location": "North Vancouver",
+      "trail": "Grouse Mountain",
+      "date": "4-26-2019",
+      "id": "20190426_120643",
+      "imgSrc": "20190426_120643.jpg"
+    },
+
+    {
+      "location": "North Vancouver",
+      "trail": "Grouse Mountain",
+      "date": "4-26-2019",
+      "id": "20190426_121045",
+      "imgSrc": "20190426_121045.jpg"
+    },
+
+    {
+      "location": "North Vancouver",
+      "trail": "Grouse Mountain",
+      "date": "4-26-2019",
+      "id": "20190426_121222",
+      "imgSrc": "20190426_121222.jpg"
+    },
+
+    {
+      "location": "North Vancouver",
+      "trail": "Grouse Mountain",
+      "date": "4-26-2019",
+      "id": "20190426_121259",
+      "imgSrc": "20190426_121259.jpg"
+    },
+
+    {
+      "location": "North Vancouver",
+      "trail": "Grouse Mountain",
+      "date": "4-26-2019",
+      "id": "20190426_111627",
+      "imgSrc": "20190426_111627.jpg"
+    }
+  ]
+}
